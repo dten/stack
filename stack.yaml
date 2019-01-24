@@ -28,6 +28,8 @@ extra-deps:
 - windns-0.1.0.0@rev:0
 - hackage-security-0.5.3.0@rev:2
 - cabal-doctest-1.0.6@rev:2
+- git: https://github.com/dten/hfsnotify
+  commit: 0bc6000643f8946b5fb5a9fb0ed2724fabc1e27e
 
 # Avoid https://github.com/commercialhaskell/stack/issues/4125
 # (triggered because later versions of persistent transitively depends
@@ -42,3 +44,4 @@ extra-deps:
 
 ghc-options:
    "$locals": -fhide-source-paths
+
